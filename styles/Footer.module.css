@@ -1,0 +1,14 @@
+.container{
+display: flex;
+justify-content: center;
+gap: 10rem;
+align-items: center;
+font-weight: bold;
+background-color: yellow;
+height: 5rem;
+}
+
+.container>div:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
